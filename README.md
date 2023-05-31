@@ -1,1 +1,0 @@
-# sezer-muhammed.github.io
