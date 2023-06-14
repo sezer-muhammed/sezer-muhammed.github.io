@@ -773,7 +773,7 @@ a:hover {
 p {
     line-height: 1.6875rem;
     margin-bottom: 1.875rem;
-    opacity: .5;
+    opacity: 1;
 }
 
 .ts-font-weight__normal {
@@ -874,9 +874,30 @@ p {
     height: 100%;
 }
 
+.custom-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 85%;  /* You can modify this to whatever you prefer */
+}
+
+
+
 .ts-video-bg .fluid-width-video-wrapper {
     height: 100%;
 }
+
+.video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-wrapper iframe {
+    flex: 0 0 calc(33% - 10px);
+    margin: 5px;
+    max-width: 100%;
+}
+
 
 .ts-video-bg iframe {
     border: 0;
